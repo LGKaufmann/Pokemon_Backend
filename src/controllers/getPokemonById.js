@@ -1,5 +1,5 @@
-const searchDatabaseById = require("../../utils/searchDatabaseById");
-const searchInApiById = require("../../utils/SearchInApiById");
+const searchDatabaseById = require("../../utils/searchDatabaseById.js");
+const searchInApiById = require("../../utils/searchInApiById.js");
 
 const getPokemonById = async (req, res) => {
   const { idPokemon } = req.params;
