@@ -14,7 +14,7 @@ const getTypes = async (req, res) => {
           return { name: type.name };
         });
         await Types.bulkCreate(arrayTypes);
-        res.status(200).json(arrayTypes);
+        return res.status(200).json(arrayTypes);
       } catch (error) {
         return error;
       }
