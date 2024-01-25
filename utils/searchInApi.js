@@ -1,7 +1,7 @@
 const axios = require("axios");
 
 const searchInApi = async () => {
-  const URL = "https://pokeapi.co/api/v2/pokemon?limit=400";
+  const URL = "https://pokeapi.co/api/v2/pokemon?limit=300";
   let arrayPokemonsApi = [];
 
   // carga de pokeAPI -----------------------------------------
